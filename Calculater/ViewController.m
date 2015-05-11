@@ -35,7 +35,7 @@
 -(IBAction)operationPressed:(UIButton *)sender
 {
     if (userInAMiddleOfTypingANumber) {
-        [[self brain] setOperand:[[display text] doubleValue]];
+        [self.brain setOperand:[[display text] doubleValue]];
         userInAMiddleOfTypingANumber = NO;
     }
     NSString *operation = [[sender titleLabel] text];
