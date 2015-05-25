@@ -17,6 +17,7 @@
 
 - (void)performWaitingOperation
 {
+    
     if ([@"+" isEqual:waitingOperation]) {
         operand = waitingOperand + operand;
     } else if([@"-" isEqual:waitingOperation]){
