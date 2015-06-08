@@ -244,6 +244,19 @@
                                     <action selector="operationPressed:" destination="dkx-z0-nzr" eventType="touchUpInside" id="pBN-uk-dDd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYJ-yw-uFF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.8122464533" blue="0.32148397080000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="sq">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="43" y="327" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operationPressed:" destination="dkx-z0-nzr" eventType="touchUpInside" id="KKR-gx-gzQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -267,6 +280,7 @@
                                 <exclude reference="88x-Fd-FMA"/>
                                 <exclude reference="05j-zH-nUk"/>
                                 <exclude reference="btU-GH-cay"/>
+                                <exclude reference="QYJ-yw-uFF"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -288,6 +302,7 @@
                                 <include reference="88x-Fd-FMA"/>
                                 <include reference="05j-zH-nUk"/>
                                 <include reference="btU-GH-cay"/>
+                                <include reference="QYJ-yw-uFF"/>
                             </mask>
                         </variation>
                     </view>

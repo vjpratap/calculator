@@ -36,6 +36,9 @@
     if ([operation isEqual:@"sqrt"]) {
         operand = sqrt(operand);
     }
+    else if ([operation isEqualToString:@"sq"]){
+        operand = pow(operand, 2);
+    }
     else{
         [self performWaitingOperation];
         waitingOperation = operation;
